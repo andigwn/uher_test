@@ -103,7 +103,7 @@
                 </div>
                 <div class="mb-4">
                     <label class="block text-sm font-medium text-gray-700 mb-1">No. HP</label>
-                    <input type="text" name="hp" required class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400">
+                    <input type="number" name="hp" required class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400">
                 </div>
                 <div class="flex justify-end gap-2">
                     <button type="button" class="px-4 py-2 text-sm border border-gray-300 rounded hover:bg-gray-100" onclick="closeModal('modal-tambah')">Batal</button>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="mb-4">
                     <label class="block text-sm font-medium text-gray-700 mb-1">No. HP</label>
-                    <input type="text" name="hp" id="edit-hp" required class="w-full border border-gray-300 rounded px-3 py-2 text-sm">
+                    <input type="number" name="hp" id="edit-hp" required class="w-full border border-gray-300 rounded px-3 py-2 text-sm">
                 </div>
                 <div class="flex justify-end gap-2">
                     <button type="button" class="px-4 py-2 text-sm border border-gray-300 rounded hover:bg-gray-100" onclick="closeModal('modal-edit')">Batal</button>
